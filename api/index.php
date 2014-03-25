@@ -1,6 +1,6 @@
 <?php
 function getAPIDataJ($where)
 {
-	echo "coming";
+	print_r($where);
 }
 ?>
