@@ -8,7 +8,7 @@ function displayData($data)
 {
 	foreach($data as $i)
 	{
-		echo "This is line no:".$i;
+		echo "THIS IS LINE NO:".$i;
 	}
 }
 
