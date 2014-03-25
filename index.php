@@ -13,12 +13,11 @@ function displayData($data)
 }
 
 function displayTable($i){
-	echo "Table of :" . $i;
+	echo "Table of :" . $i . "<br />";
 	for($j = 1; $j <= 10; $j++){
-		echo $i . "*" . $j . " = " . $i * $j . "<br />";
+		echo "row" . $i . "*" . $j . " = " . $i * $j . "<br />";
 	}
 }
 echo "Removed error";
 displayTable(2);
-
 ?>
