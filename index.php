@@ -14,11 +14,11 @@ function displayData($data)
 
 function displayTable($i){
 	echo "Table of :" . $i;
-	for($j = 1; $j < = 10; $j++){
+	for($j = 1; $j <= 10; $j++){
 		echo $i . "*" . $j . " = " . $i * $j . "<br />";
 	}
 }
-
+echo "Removed error";
 displayTable(2);
 
 ?>
