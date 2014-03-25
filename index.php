@@ -22,4 +22,5 @@ function displayTable($i){
 }
 echo "Removed error";
 displayTable(2);
+echo "added";
 ?>
