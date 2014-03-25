@@ -14,7 +14,9 @@ function displayData($data)
 
 function displayTable($i){
 	echo "Table of :" . $i;
-	for($j = 1; $j <= 10; $j++){
+	$i = 0;
+	$j = 0;
+	while($j<=10){
 		echo $i . "*" . $j . " = " . $i * $j . "<br />";
 	}
 }
