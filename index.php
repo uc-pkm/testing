@@ -23,4 +23,6 @@ function displayTable($i){
 echo "Removed error";
 displayTable(2);
 echo "added";
+
+echo "Hello this is added today by deepika";
 ?>
