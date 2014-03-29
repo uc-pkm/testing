@@ -1,5 +1,6 @@
 <?php
 echo "This is new line";
+echo "<hr>";
 echo "This is new line";
 echo "hi";
 //print_r(phpinfo());  This is commented for security reasons.
