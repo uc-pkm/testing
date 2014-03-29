@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-<?php
-echo "<h1>This is new line</h1>";
-echo "This is new line";
-=======
 <?php
 echo "This is new line";
 echo "<hr>";
->>>>>>> branch 'master' of https://github.com/uc-pkm/testing.git
 echo "hi";
 //print_r(phpinfo());  This is commented for security reasons.
 
