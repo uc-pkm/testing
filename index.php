@@ -18,6 +18,7 @@ function displayTable($i){
 	$j = 0;
 	while($j<=10){
 		echo "row => " . $i . "*" . $j . " = " . $i * $j . "<br />";
+		$j++;
 	}
 }
 echo "Removed error";
