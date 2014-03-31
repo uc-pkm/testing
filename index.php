@@ -2,7 +2,6 @@
 echo "This is new line";
 echo "<hr>";
 echo "hi";
-//print_r(phpinfo());  This is commented for security reasons.
 
 function displayData($data)
 {
