@@ -11,4 +11,6 @@ echo "this is index file";
 echo "hello this is written for checcking conflict";
 
 echo "this is added in deepika local branch";
+
+ECHO "THIS IS FROM OLD MODE"
 ?>
