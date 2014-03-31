@@ -5,4 +5,6 @@ print_r(phpinfo());
 
 echo "this is new branch";
 echo "this is new branch";
+
+print_r($_SERVER);
 ?>
