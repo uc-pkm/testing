@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 echo "This is initial stage of index.php";
 include "site-config.php";
 echo "this is new branch";
@@ -13,4 +14,7 @@ echo "hello this is written for checcking conflict";
 echo "this is added in deepika local branch";
 
 ECHO "THIS IS FROM OLD MODE"
+=======
+ECHO "this file changed during the branch"
+>>>>>>> refs/heads/local_working
 ?>
