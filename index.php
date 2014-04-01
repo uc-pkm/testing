@@ -28,4 +28,8 @@ function getEducatorStudentRoster($mentor_guid)
 	$response = getAPIDataJ("cat2.get_student_roster", $where);
 	return $response;
 }  
+function sendStudentEmail($user_guid)
+{
+	
+}
 ?>
