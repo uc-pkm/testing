@@ -22,10 +22,12 @@ function getEducatorStudentRoster($mentor_guid)
 {
 	$where = array();
 	$where['mentor_guid'] = $mentor_guid;
-	/*
-	 * Wrong API is called, please correct it
-	 */
 	$response = getAPIDataJ("cat2.get_student_roster", $where);
 	return $response;
-}  
+}
+
+function sendEducatorEmail($mentor_guid)
+{
+	
+}    
 ?>
