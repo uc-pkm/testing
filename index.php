@@ -11,6 +11,9 @@ foreach($user as $item)
 
 function getEducatorList($mentor_guid)
 {
-	
+	$where = array();
+	$where['mentor_guid'] = $mentor_guid;
+	$response = getAPIDataJ("cat2.get_mentor_list", $where);
+	return $response;
 } 
 ?>
