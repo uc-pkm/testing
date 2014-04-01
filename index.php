@@ -17,6 +17,19 @@ function getEducatorList($mentor_guid)
 	return $response;
 }
 
+// Adding getEducatorStudentRoster function for educator 
+function getEducatorStudentRoster($mentor_guid)
+{
+	$where = array();
+	$where['mentor_guid'] = $mentor_guid;
+	$response = getAPIDataJ("cat2.get_student_roster", $where);
+	return $response;
+}
+
+function sendEducatorEmail($mentor_guid)
+{
+	
+}  
 function sendStudentEmail($user_guid)
 {
 	
