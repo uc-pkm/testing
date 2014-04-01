@@ -7,4 +7,10 @@ foreach($user as $item)
 {
 	Echo "Item ".$item;
 }
+// Writing function for educator
+
+function getEducatorList($mentor_guid)
+{
+	
+} 
 ?>
