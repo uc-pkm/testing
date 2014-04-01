@@ -20,5 +20,5 @@ function getEducatorList($mentor_guid)
 function sendStudentEmail($user_guid)
 {
 	
-}
+} 
 ?>
