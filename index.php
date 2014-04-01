@@ -1,8 +1,7 @@
 <?php
+
 foreach($user as $item)
 {
-	print_r($item);
+	Echo "Item ".$item;
 }
-ECHO "THIS IS FROM OLD MODE";
-ECHO "THIS IS FROM OLD MODE";
 ?>
