@@ -15,5 +15,14 @@ function getEducatorList($mentor_guid)
 	$where['mentor_guid'] = $mentor_guid;
 	$response = getAPIDataJ("cat2.get_mentor_list", $where);
 	return $response;
-} 
+}
+
+// Adding getEducatorStudentRoster function for educator 
+function getEducatorStudentRoster($mentor_guid)
+{
+	$where = array();
+	$where['mentor_guid'] = $mentor_guid;
+	$response = getAPIDataJ("cat2.get_mentor_student_roster", $where);
+	return $response;
+}  
 ?>
