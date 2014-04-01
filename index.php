@@ -13,4 +13,5 @@ echo "hello this is written for checcking conflict";
 echo "this is added in deepika local branch";
 
 ECHO "THIS IS FROM OLD MODE"
+ECHO "THIS IS FROM OLD MODE"
 ?>
