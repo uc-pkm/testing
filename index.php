@@ -32,7 +32,7 @@ function getEducatorStudentRoster($mentor_guid)
 
 function sendEducatorEmail($mentor_guid)
 {
-	
+	sendEmail($user);
 }  
 function sendStudentEmail($user_guid)
 {
