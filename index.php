@@ -5,6 +5,10 @@
  */
 foreach($user as $item)
 {
+	if($user['is_admin'])
+	{
+		$user['admin'] = 1;
+	}
 	Echo "Item ".$item;
 }
 // Writing function for educator
