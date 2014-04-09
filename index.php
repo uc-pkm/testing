@@ -3,6 +3,7 @@
  * This is the index.php file used to get data and show data
  * author @Prem (uc-pkm)
  */
+$user = array("user_guid"=>"00002","user_email"=>"prem.maurya@ucertify.com");
 foreach($user as $item)
 {
 	if($user['is_admin'])
