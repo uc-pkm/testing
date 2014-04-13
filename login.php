@@ -9,4 +9,5 @@ function checkuser($user)
 	}
 	return 0;
 }
+echo "Aded by Deepika";
 ?>
