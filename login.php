@@ -9,5 +9,8 @@ function checkuser($user)
 	}
 	return 0;
 }
-echo "Aded by Deepika";
+function is_admin()
+{
+	return true;
+}
 ?>
