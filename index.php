@@ -1,3 +1,14 @@
 <?php
-echo "Welcome in dual OS mode system";
+
+echo "THIS IS EXAMPLE OF GIT";
+echo "THIS IS EXAMPLE OF GIT";
+function checkUser($user)
+{
+	global $data;
+	echo "this is user Auth Module"
+	foreach($data as $d)
+	{
+		echo "This is data:".$d;
+	}
+}
 ?>
