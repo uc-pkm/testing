@@ -1,7 +1,10 @@
 <?php
+/*
+ * This is the index file
+ * Author: PREM
+ */
+include_once "prepengine-header.php";
 
-echo "THIS IS EXAMPLE OF GIT";
-echo "THIS IS EXAMPLE OF GIT";
 function checkUser($user)
 {
 	global $data;
