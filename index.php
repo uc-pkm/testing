@@ -1,4 +1,3 @@
 <?php
-echo "THIS IS EXAMPLE OF GIT";
-echo "this is added by deepika";
+echo "Welcome in dual OS mode system";
 ?>
