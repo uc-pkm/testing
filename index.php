@@ -1,6 +1,6 @@
 <?php
 echo "THIS IS EXAMPLE OF GIT";
-echo "THIS IS EXAMPLE OF GIT";
+
 function checkUser($user)
 {
 	global $data;
