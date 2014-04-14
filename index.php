@@ -1,10 +1,7 @@
 <?php
 echo "this is user Auth Module"
-function checkUser($user)
+foreach($data as $d)
 {
-	if(isset($user['user_guid']) && $user['user_guid']<>"")
-	{
-		return true;
-	}
+	echo "This is data:".$d;
 }
 ?>
