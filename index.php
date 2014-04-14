@@ -10,5 +10,4 @@ function checkUser($user)
 		echo "This is data:".$d;
 	}
 }
-
 ?>
