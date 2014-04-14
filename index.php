@@ -10,4 +10,6 @@ function checkUser($user)
 		echo "This is data:".$d;
 	}
 }
+
+echo "this is added by deepika";
 ?>
