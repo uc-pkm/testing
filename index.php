@@ -3,6 +3,7 @@
  * This is the index file
  * Author: PREM
  */
+echo "This is from local master file";
 include_once "prepengine-header.php";
 
 function checkUser($user)
