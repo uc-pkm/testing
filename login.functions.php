@@ -4,11 +4,7 @@
  * 
  */
 
-function getUserList()
-{
-	$user_list = array("u0001","u0001");
-	return $user_list; 
-}
+
 function isValidUser($user)
 {
 	$user_list = getUserList();
