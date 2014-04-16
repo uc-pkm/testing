@@ -4,7 +4,6 @@
  * Author: PREM
  */
 echo "Testing I am committing this file from Ubuntu";
-echo "This is from local master file";
 include_once "prepengine-header.php";
 
 function checkUser($user)
