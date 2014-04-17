@@ -12,7 +12,7 @@ This is last line
 
 ## Coding
 
-```
+```php
 <?php
 echo "this is php code";
 ?>
