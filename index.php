@@ -16,5 +16,4 @@ function checkUser($user)
 	}
 }
 
-echo "Added by Deepika";
 ?>
