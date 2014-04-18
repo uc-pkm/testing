@@ -15,4 +15,6 @@ function checkUser($user)
 		echo "This is data:".$d;
 	}
 }
+
+echo "Added by Deepika";
 ?>
