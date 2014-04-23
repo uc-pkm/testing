@@ -6,6 +6,7 @@
 echo "Testing I am committing this file from Ubuntu";
 include_once "prepengine-header.php";
 
+/*Testing*/
 function checkUser($user)
 {
 	global $data;
