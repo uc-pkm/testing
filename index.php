@@ -17,4 +17,5 @@ function checkUser($user)
 	}
 }
 Echo "Added new things in BETA branch";
+Echo "Added new things in BETA branch";
 ?>
